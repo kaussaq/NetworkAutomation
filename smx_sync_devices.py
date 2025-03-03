@@ -20,9 +20,9 @@ else:
   password = getpass.getpass("Password: ")
 
 if args.environment == "prod":
-      urlbase = "https://10.22.32.124:18443/rest/v1"
+      urlbase = "https://XXXX:18443/rest/v1"
 elif args.environment == "staging":
-      urlbase = "https://10.22.32.221:18443/rest/v1"
+      urlbase = "https://XXXX:18443/rest/v1"
 
 #API Tools (end of url)
 
